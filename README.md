@@ -1,5 +1,7 @@
 # vue3-autocomplete
 
+This repo is a fork from [Takachi67/vue3-autocomplete](https://github.com/Takachi67/vue3-autocomplete). Please referrer the original repo/package for npm support or let me know if you want me to publish this on npm.
+
 ## Table of contents
 
 * [Installation](#installation)
@@ -9,12 +11,12 @@
 
 Using npm
 ```
-npm install vue3-autocomplete
+npm install https://github.com/fcristinadebora/vue3-autocomplete
 ```
 
 Using yarn
 ```
-yarn add vue3-autocomplete
+yarn add https://github.com/fcristinadebora/vue3-autocomplete
 ```
 
 ## Usage
