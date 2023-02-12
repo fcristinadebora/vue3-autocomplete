@@ -116,6 +116,7 @@ export default {
      */
     function clickItem(data: Object) {
       context.emit('onSelect', data)
+      searchText.value = String(props.displayItem(data))
       showResults.value = false
     }
 

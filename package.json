@@ -19,10 +19,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Takachi67/vue3-autocomplete.git"
+    "url": "https://github.com/fcristinadebora/vue3-autocomplete.git"
   },
   "bugs": {
-    "url": "https://github.com/Takachi67/vue3-autocomplete/issues"
+    "url": "https://github.com/fcristinadebora/vue3-autocomplete/issues"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
