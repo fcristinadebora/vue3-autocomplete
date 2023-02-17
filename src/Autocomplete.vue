@@ -79,6 +79,10 @@ export default {
         // @ts-ignore
         return typeof item === 'string' ? item : item.name
       }
+    },
+    currentValue: {
+      type: String,
+      default: null
     }
   },
   emits: [
@@ -97,7 +101,8 @@ export default {
      * Same as Vue2 'mounted' function, used to get refs correctly
      */
     onMounted(() => {
-      inputWidth.value = autocompleteRef.value.offsetWidth - 2
+      inputWidth.value = autocompleteRef.value.offsetWidth - 2;
+      searchText.value = props.currentValue.toString() ?? '';
     })
 
     /**

@@ -7,7 +7,8 @@ export default interface ComponentProps {
     resultsItemClass: Array<String>
     max: number,
     placeholder: String,
-    useHtmlForResults: Boolean
+    useHtmlForResults: Boolean,
+    currentValue: String
 
     displayItem(item: Object|String): String
 
