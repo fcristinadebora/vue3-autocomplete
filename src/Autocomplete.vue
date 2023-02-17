@@ -102,7 +102,7 @@ export default {
      */
     onMounted(() => {
       inputWidth.value = autocompleteRef.value.offsetWidth - 2;
-      searchText.value = props.currentValue.toString() ?? '';
+      searchText.value = props.currentValue ? props.currentValue.toString() : '';
     })
 
     /**
